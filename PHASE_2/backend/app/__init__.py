@@ -1,0 +1,1 @@
+"""Sprint Whisperer Backend Application."""

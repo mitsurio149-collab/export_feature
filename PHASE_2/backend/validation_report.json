@@ -1,0 +1,650 @@
+{
+  "baseline": {
+    "probability": 0.278,
+    "delay_days": 152.26,
+    "risk_score": 54.56815801776531,
+    "forecast_finish_date": "2025-10-10T06:13:37.297297",
+    "p50": "2025-06-11T06:06:29.209642",
+    "p80": "2025-07-30T19:22:37.420596",
+    "p95": "2025-09-19T10:09:48.448501",
+    "critical_path": [
+      "WI-058",
+      "WI-056",
+      "WI-048",
+      "WI-043",
+      "WI-042"
+    ],
+    "critical_path_hours": 168.0
+  },
+  "recommendations": [
+    {
+      "recommendation_id": "REC-003",
+      "type": "Add Resource",
+      "action": "Add SecOC & Secure Boot Engineer with SecOC & Secure Boot skill",
+      "baseline_probability": 0.278,
+      "baseline_delay_days": 152.26,
+      "baseline_risk_score": 54.56815801776531,
+      "baseline_forecast_finish_date": "2025-10-10T06:13:37.297297",
+      "baseline_p50": "2025-06-11T06:06:29.209642",
+      "baseline_p80": "2025-07-30T19:22:37.420596",
+      "baseline_p95": "2025-09-19T10:09:48.448501",
+      "baseline_critical_path": [
+        "WI-058",
+        "WI-056",
+        "WI-048",
+        "WI-043",
+        "WI-042"
+      ],
+      "baseline_critical_path_hours": 168.0,
+      "simulated_probability": 0.302,
+      "simulated_delay_days": 139.1,
+      "simulated_risk_score": 52.67284937579001,
+      "simulated_forecast_finish_date": "2025-09-27T02:19:21.290323",
+      "simulated_p50": "2025-06-08T02:39:14.308459",
+      "simulated_p80": "2025-07-26T03:11:18.917664",
+      "simulated_p95": "2025-09-09T11:00:08.354694",
+      "simulated_critical_path": [
+        "WI-058",
+        "WI-056",
+        "WI-048",
+        "WI-043",
+        "WI-042"
+      ],
+      "simulated_critical_path_hours": 168.0,
+      "deltas": {
+        "probability": 0.024,
+        "delay_days": -13.16,
+        "risk_score": -1.9,
+        "forecast_finish_days": -14,
+        "cp_hours": 0.0
+      },
+      "state_changes": {
+        "work_items": [],
+        "resources": [
+          {
+            "resource_id": "SIM-R-9",
+            "added": true,
+            "name": "Simulated SecOC & Secure Boot Engineer",
+            "primary_skill": "SecOC & Secure Boot",
+            "allocation_pct": 0.5,
+            "availability_pct": 1.0
+          }
+        ],
+        "dependencies": [],
+        "blockers": []
+      }
+    },
+    {
+      "recommendation_id": "REC-004",
+      "type": "Reduce Item Scope",
+      "action": "Reduce scope of item WI-055 to core deliverable",
+      "baseline_probability": 0.278,
+      "baseline_delay_days": 152.26,
+      "baseline_risk_score": 54.56815801776531,
+      "baseline_forecast_finish_date": "2025-10-10T06:13:37.297297",
+      "baseline_p50": "2025-06-11T06:06:29.209642",
+      "baseline_p80": "2025-07-30T19:22:37.420596",
+      "baseline_p95": "2025-09-19T10:09:48.448501",
+      "baseline_critical_path": [
+        "WI-058",
+        "WI-056",
+        "WI-048",
+        "WI-043",
+        "WI-042"
+      ],
+      "baseline_critical_path_hours": 168.0,
+      "simulated_probability": 0.296,
+      "simulated_delay_days": 145.48,
+      "simulated_risk_score": 54.24400654511454,
+      "simulated_forecast_finish_date": "2025-10-03T11:29:38.594595",
+      "simulated_p50": "2025-06-08T09:55:40.258631",
+      "simulated_p80": "2025-07-26T08:28:35.085972",
+      "simulated_p95": "2025-09-13T07:42:41.847852",
+      "simulated_critical_path": [
+        "WI-058",
+        "WI-056",
+        "WI-048",
+        "WI-043",
+        "WI-042"
+      ],
+      "simulated_critical_path_hours": 168.0,
+      "deltas": {
+        "probability": 0.018,
+        "delay_days": -6.78,
+        "risk_score": -0.32,
+        "forecast_finish_days": -7,
+        "cp_hours": 0.0
+      },
+      "state_changes": {
+        "work_items": [
+          {
+            "item_id": "WI-055",
+            "current_estimate_hrs": [
+              56.0,
+              33.6
+            ],
+            "remaining_effort_hrs": [
+              56.0,
+              33.6
+            ]
+          }
+        ],
+        "resources": [],
+        "dependencies": [],
+        "blockers": []
+      }
+    },
+    {
+      "recommendation_id": "REC-005",
+      "type": "Reduce Item Scope",
+      "action": "Reduce scope of item WI-041 to core deliverable",
+      "baseline_probability": 0.278,
+      "baseline_delay_days": 152.26,
+      "baseline_risk_score": 54.56815801776531,
+      "baseline_forecast_finish_date": "2025-10-10T06:13:37.297297",
+      "baseline_p50": "2025-06-11T06:06:29.209642",
+      "baseline_p80": "2025-07-30T19:22:37.420596",
+      "baseline_p95": "2025-09-19T10:09:48.448501",
+      "baseline_critical_path": [
+        "WI-058",
+        "WI-056",
+        "WI-048",
+        "WI-043",
+        "WI-042"
+      ],
+      "baseline_critical_path_hours": 168.0,
+      "simulated_probability": 0.292,
+      "simulated_delay_days": 146.93,
+      "simulated_risk_score": 54.33941561477326,
+      "simulated_forecast_finish_date": "2025-10-04T22:21:55.459459",
+      "simulated_p50": "2025-06-09T00:32:16.462419",
+      "simulated_p80": "2025-07-27T07:23:01.300534",
+      "simulated_p95": "2025-09-14T15:05:38.976563",
+      "simulated_critical_path": [
+        "WI-058",
+        "WI-056",
+        "WI-048",
+        "WI-043",
+        "WI-042"
+      ],
+      "simulated_critical_path_hours": 168.0,
+      "deltas": {
+        "probability": 0.014,
+        "delay_days": -5.33,
+        "risk_score": -0.23,
+        "forecast_finish_days": -6,
+        "cp_hours": 0.0
+      },
+      "state_changes": {
+        "work_items": [
+          {
+            "item_id": "WI-041",
+            "current_estimate_hrs": [
+              44.0,
+              26.4
+            ],
+            "remaining_effort_hrs": [
+              44.0,
+              26.4
+            ]
+          }
+        ],
+        "resources": [],
+        "dependencies": [],
+        "blockers": []
+      }
+    },
+    {
+      "recommendation_id": "REC-010",
+      "type": "Critical Path Optimization",
+      "action": "Optimize critical path items: WI-048, WI-056, WI-042",
+      "baseline_probability": 0.278,
+      "baseline_delay_days": 152.26,
+      "baseline_risk_score": 54.56815801776531,
+      "baseline_forecast_finish_date": "2025-10-10T06:13:37.297297",
+      "baseline_p50": "2025-06-11T06:06:29.209642",
+      "baseline_p80": "2025-07-30T19:22:37.420596",
+      "baseline_p95": "2025-09-19T10:09:48.448501",
+      "baseline_critical_path": [
+        "WI-058",
+        "WI-056",
+        "WI-048",
+        "WI-043",
+        "WI-042"
+      ],
+      "baseline_critical_path_hours": 168.0,
+      "simulated_probability": 0.29,
+      "simulated_delay_days": 147.17,
+      "simulated_risk_score": 54.36608228143992,
+      "simulated_forecast_finish_date": "2025-10-05T04:10:38.270270",
+      "simulated_p50": "2025-06-09T02:58:22.496384",
+      "simulated_p80": "2025-07-27T11:12:05.669628",
+      "simulated_p95": "2025-09-14T20:19:28.498014",
+      "simulated_critical_path": [
+        "WI-058",
+        "WI-056",
+        "WI-048",
+        "WI-043",
+        "WI-042"
+      ],
+      "simulated_critical_path_hours": 151.2,
+      "deltas": {
+        "probability": 0.012,
+        "delay_days": -5.09,
+        "risk_score": -0.2,
+        "forecast_finish_days": -6,
+        "cp_hours": -16.80000000000001
+      },
+      "state_changes": {
+        "work_items": [
+          {
+            "item_id": "WI-042",
+            "current_estimate_hrs": [
+              36.0,
+              30.6
+            ],
+            "remaining_effort_hrs": [
+              36.0,
+              30.6
+            ]
+          },
+          {
+            "item_id": "WI-048",
+            "current_estimate_hrs": [
+              40.0,
+              34.0
+            ],
+            "remaining_effort_hrs": [
+              40.0,
+              34.0
+            ]
+          },
+          {
+            "item_id": "WI-056",
+            "current_estimate_hrs": [
+              36.0,
+              30.6
+            ],
+            "remaining_effort_hrs": [
+              36.0,
+              30.6
+            ]
+          }
+        ],
+        "resources": [],
+        "dependencies": [],
+        "blockers": []
+      }
+    },
+    {
+      "recommendation_id": "REC-002",
+      "type": "Resolve Blocker",
+      "action": "Resolve blocker BLK-004 using category-specific actions for External Team Dependency",
+      "baseline_probability": 0.278,
+      "baseline_delay_days": 152.26,
+      "baseline_risk_score": 54.56815801776531,
+      "baseline_forecast_finish_date": "2025-10-10T06:13:37.297297",
+      "baseline_p50": "2025-06-11T06:06:29.209642",
+      "baseline_p80": "2025-07-30T19:22:37.420596",
+      "baseline_p95": "2025-09-19T10:09:48.448501",
+      "baseline_critical_path": [
+        "WI-058",
+        "WI-056",
+        "WI-048",
+        "WI-043",
+        "WI-042"
+      ],
+      "baseline_critical_path_hours": 168.0,
+      "simulated_probability": 0.278,
+      "simulated_delay_days": 152.26,
+      "simulated_risk_score": 54.56815801776531,
+      "simulated_forecast_finish_date": "2025-10-10T06:13:37.297297",
+      "simulated_p50": "2025-06-11T06:06:29.209642",
+      "simulated_p80": "2025-07-30T19:22:37.420596",
+      "simulated_p95": "2025-09-19T10:09:48.448501",
+      "simulated_critical_path": [
+        "WI-058",
+        "WI-056",
+        "WI-048",
+        "WI-043",
+        "WI-042"
+      ],
+      "simulated_critical_path_hours": 168.0,
+      "deltas": {
+        "probability": 0.0,
+        "delay_days": 0.0,
+        "risk_score": 0.0,
+        "forecast_finish_days": 0,
+        "cp_hours": 0.0
+      },
+      "state_changes": {
+        "work_items": [],
+        "resources": [],
+        "dependencies": [],
+        "blockers": [
+          {
+            "blocker_id": "BLK-004",
+            "status": [
+              "BlockerStatus.OPEN",
+              "BlockerStatus.RESOLVED"
+            ],
+            "actual_resolution_date": [
+              "None",
+              "2026-06-21 11:01:50.585350"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "recommendation_id": "REC-007",
+      "type": "Move Blocked Items Forward",
+      "action": "Move blocked items forward by starting 3 ready items",
+      "baseline_probability": 0.278,
+      "baseline_delay_days": 152.26,
+      "baseline_risk_score": 54.56815801776531,
+      "baseline_forecast_finish_date": "2025-10-10T06:13:37.297297",
+      "baseline_p50": "2025-06-11T06:06:29.209642",
+      "baseline_p80": "2025-07-30T19:22:37.420596",
+      "baseline_p95": "2025-09-19T10:09:48.448501",
+      "baseline_critical_path": [
+        "WI-058",
+        "WI-056",
+        "WI-048",
+        "WI-043",
+        "WI-042"
+      ],
+      "baseline_critical_path_hours": 168.0,
+      "simulated_probability": 0.278,
+      "simulated_delay_days": 152.26,
+      "simulated_risk_score": 54.56815801776531,
+      "simulated_forecast_finish_date": "2025-10-10T06:13:37.297297",
+      "simulated_p50": "2025-06-11T06:06:29.209642",
+      "simulated_p80": "2025-07-30T19:22:37.420596",
+      "simulated_p95": "2025-09-19T10:09:48.448501",
+      "simulated_critical_path": [
+        "WI-058",
+        "WI-056",
+        "WI-048",
+        "WI-043",
+        "WI-042"
+      ],
+      "simulated_critical_path_hours": 168.0,
+      "deltas": {
+        "probability": 0.0,
+        "delay_days": 0.0,
+        "risk_score": 0.0,
+        "forecast_finish_days": 0,
+        "cp_hours": 0.0
+      },
+      "state_changes": {
+        "work_items": [
+          {
+            "item_id": "WI-044",
+            "status": [
+              "WorkItemStatus.NOT_STARTED",
+              "WorkItemStatus.IN_PROGRESS"
+            ]
+          },
+          {
+            "item_id": "WI-047",
+            "status": [
+              "WorkItemStatus.NOT_STARTED",
+              "WorkItemStatus.IN_PROGRESS"
+            ]
+          },
+          {
+            "item_id": "WI-049",
+            "status": [
+              "WorkItemStatus.NOT_STARTED",
+              "WorkItemStatus.IN_PROGRESS"
+            ]
+          }
+        ],
+        "resources": [],
+        "dependencies": [],
+        "blockers": []
+      }
+    },
+    {
+      "recommendation_id": "REC-001",
+      "type": "Resolve Blocker",
+      "action": "Resolve blocker BLK-003 using category-specific actions for Hardware / Procurement",
+      "baseline_probability": 0.278,
+      "baseline_delay_days": 152.26,
+      "baseline_risk_score": 54.56815801776531,
+      "baseline_forecast_finish_date": "2025-10-10T06:13:37.297297",
+      "baseline_p50": "2025-06-11T06:06:29.209642",
+      "baseline_p80": "2025-07-30T19:22:37.420596",
+      "baseline_p95": "2025-09-19T10:09:48.448501",
+      "baseline_critical_path": [
+        "WI-058",
+        "WI-056",
+        "WI-048",
+        "WI-043",
+        "WI-042"
+      ],
+      "baseline_critical_path_hours": 168.0,
+      "simulated_probability": 0.306,
+      "simulated_delay_days": 152.26,
+      "simulated_risk_score": 54.19482468443198,
+      "simulated_forecast_finish_date": "2025-10-10T06:13:37.297297",
+      "simulated_p50": "2025-06-02T17:46:29.010532",
+      "simulated_p80": "2025-07-21T07:56:13.544704",
+      "simulated_p95": "2025-09-15T03:40:24.259304",
+      "simulated_critical_path": [
+        "WI-058",
+        "WI-056",
+        "WI-048",
+        "WI-043",
+        "WI-042"
+      ],
+      "simulated_critical_path_hours": 168.0,
+      "deltas": {
+        "probability": 0.028,
+        "delay_days": 0.0,
+        "risk_score": -0.37,
+        "forecast_finish_days": 0,
+        "cp_hours": 0.0
+      },
+      "state_changes": {
+        "work_items": [],
+        "resources": [],
+        "dependencies": [],
+        "blockers": [
+          {
+            "blocker_id": "BLK-003",
+            "status": [
+              "BlockerStatus.OPEN",
+              "BlockerStatus.RESOLVED"
+            ],
+            "actual_resolution_date": [
+              "None",
+              "2026-06-21 11:01:50.622668"
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "recommendation_id": "REC-008",
+      "type": "Split Task",
+      "action": "Split task WI-048 into 2 subtasks",
+      "baseline_probability": 0.278,
+      "baseline_delay_days": 152.26,
+      "baseline_risk_score": 54.56815801776531,
+      "baseline_forecast_finish_date": "2025-10-10T06:13:37.297297",
+      "baseline_p50": "2025-06-11T06:06:29.209642",
+      "baseline_p80": "2025-07-30T19:22:37.420596",
+      "baseline_p95": "2025-09-19T10:09:48.448501",
+      "baseline_critical_path": [
+        "WI-058",
+        "WI-056",
+        "WI-048",
+        "WI-043",
+        "WI-042"
+      ],
+      "baseline_critical_path_hours": 168.0,
+      "simulated_probability": 0.282,
+      "simulated_delay_days": 150.44,
+      "simulated_risk_score": 54.47274894810659,
+      "simulated_forecast_finish_date": "2025-10-08T10:38:16.216216",
+      "simulated_p50": "2025-06-10T11:50:43.954907",
+      "simulated_p80": "2025-07-29T14:44:34.652393",
+      "simulated_p95": "2025-09-17T18:56:07.037613",
+      "simulated_critical_path": [
+        "WI-058",
+        "WI-056",
+        "WI-048",
+        "WI-043",
+        "WI-042"
+      ],
+      "simulated_critical_path_hours": 162.0,
+      "deltas": {
+        "probability": 0.004,
+        "delay_days": -1.82,
+        "risk_score": -0.1,
+        "forecast_finish_days": -2,
+        "cp_hours": -6.0
+      },
+      "state_changes": {
+        "work_items": [
+          {
+            "item_id": "WI-048",
+            "current_estimate_hrs": [
+              40.0,
+              34.0
+            ],
+            "remaining_effort_hrs": [
+              40.0,
+              34.0
+            ]
+          }
+        ],
+        "resources": [],
+        "dependencies": [],
+        "blockers": []
+      }
+    },
+    {
+      "recommendation_id": "REC-009",
+      "type": "Split Task",
+      "action": "Split task WI-055 into 2 subtasks",
+      "baseline_probability": 0.278,
+      "baseline_delay_days": 152.26,
+      "baseline_risk_score": 54.56815801776531,
+      "baseline_forecast_finish_date": "2025-10-10T06:13:37.297297",
+      "baseline_p50": "2025-06-11T06:06:29.209642",
+      "baseline_p80": "2025-07-30T19:22:37.420596",
+      "baseline_p95": "2025-09-19T10:09:48.448501",
+      "baseline_critical_path": [
+        "WI-058",
+        "WI-056",
+        "WI-048",
+        "WI-043",
+        "WI-042"
+      ],
+      "baseline_critical_path_hours": 168.0,
+      "simulated_probability": 0.284,
+      "simulated_delay_days": 149.72,
+      "simulated_risk_score": 54.40400654511454,
+      "simulated_forecast_finish_date": "2025-10-07T17:12:07.783784",
+      "simulated_p50": "2025-06-10T04:32:25.853013",
+      "simulated_p80": "2025-07-29T03:17:21.545112",
+      "simulated_p95": "2025-09-17T03:14:38.473258",
+      "simulated_critical_path": [
+        "WI-058",
+        "WI-056",
+        "WI-048",
+        "WI-043",
+        "WI-042"
+      ],
+      "simulated_critical_path_hours": 168.0,
+      "deltas": {
+        "probability": 0.006,
+        "delay_days": -2.54,
+        "risk_score": -0.16,
+        "forecast_finish_days": -3,
+        "cp_hours": 0.0
+      },
+      "state_changes": {
+        "work_items": [
+          {
+            "item_id": "WI-055",
+            "current_estimate_hrs": [
+              56.0,
+              47.6
+            ],
+            "remaining_effort_hrs": [
+              56.0,
+              47.6
+            ]
+          }
+        ],
+        "resources": [],
+        "dependencies": [],
+        "blockers": []
+      }
+    },
+    {
+      "recommendation_id": "REC-006",
+      "type": "Parallelize Tasks",
+      "action": "Parallelize WI-058 and WI-056 to reduce handoff delay",
+      "baseline_probability": 0.278,
+      "baseline_delay_days": 152.26,
+      "baseline_risk_score": 54.56815801776531,
+      "baseline_forecast_finish_date": "2025-10-10T06:13:37.297297",
+      "baseline_p50": "2025-06-11T06:06:29.209642",
+      "baseline_p80": "2025-07-30T19:22:37.420596",
+      "baseline_p95": "2025-09-19T10:09:48.448501",
+      "baseline_critical_path": [
+        "WI-058",
+        "WI-056",
+        "WI-048",
+        "WI-043",
+        "WI-042"
+      ],
+      "baseline_critical_path_hours": 168.0,
+      "simulated_probability": 0.282,
+      "simulated_delay_days": 150.08,
+      "simulated_risk_score": 54.51482468443198,
+      "simulated_forecast_finish_date": "2025-10-08T01:55:12",
+      "simulated_p50": "2025-06-10T08:11:34.903960",
+      "simulated_p80": "2025-07-29T09:00:58.098752",
+      "simulated_p95": "2025-09-17T11:05:22.755435",
+      "simulated_critical_path": [
+        "WI-058",
+        "WI-056",
+        "WI-048",
+        "WI-043",
+        "WI-042"
+      ],
+      "simulated_critical_path_hours": 160.8,
+      "deltas": {
+        "probability": 0.004,
+        "delay_days": -2.18,
+        "risk_score": -0.05,
+        "forecast_finish_days": -3,
+        "cp_hours": -7.199999999999989
+      },
+      "state_changes": {
+        "work_items": [
+          {
+            "item_id": "WI-056",
+            "current_estimate_hrs": [
+              36.0,
+              28.8
+            ],
+            "remaining_effort_hrs": [
+              36.0,
+              28.8
+            ]
+          }
+        ],
+        "resources": [],
+        "dependencies": [],
+        "blockers": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg:     oklch(16% .035 255);
+  --panel:  oklch(19% .038 255);
+  --panel2: oklch(22% .042 255);
+  --panel3: oklch(25% .045 255);
+  --line:   oklch(38% .052 255);
+  --line2:  oklch(30% .042 255);
+  --text:   oklch(90% .018 220);
+  --muted:  oklch(69% .032 235);
+  --quiet:  oklch(54% .028 240);
+  --teal:   oklch(73% .16 168);
+  --orange: oklch(73% .17 58);
+  --pink:   oklch(72% .17 350);
+  --red:    oklch(67% .18 25);
+  --yellow: oklch(76% .16 82);
+  --purple: oklch(73% .13 305);
+}
+
+body {
+  font-family: Manrope, system-ui, sans-serif;
+  font-size: 12px;
+  line-height: 1.45;
+}
+
+.mono { font-family: 'DM Mono', monospace; font-variant-numeric: tabular-nums; }
+.app-shell { background: var(--bg); min-height: 100vh; color: var(--text); }
+
