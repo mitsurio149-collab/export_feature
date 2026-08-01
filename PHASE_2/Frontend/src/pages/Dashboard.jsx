@@ -8,11 +8,13 @@ import { ReasoningTrace } from './components/ReasoningTrace'
 import { SprintHealth } from './components/SprintHealth'
 import { ManagementSummary } from './ManagementSummary'
 import PMIntelligencePanel from './components/PMIntelligencePanel'
+import { ExportPage } from './Export'
 
 const tabs = [
   { key: 'overview',              label: 'Overview' },
   { key: 'recommendations',       label: '🎯 Recommendations' },
   { key: 'recovery-plans',        label: 'Recovery Plans' },
+  { key: 'export',                label: 'Export' },
   { key: 'delivery_intelligence', label: 'Delivery Intelligence' },
   { key: 'sprint-health',         label: '🏥 Sprint Health' },
   { key: 'reasoning-trace',       label: '🧠 Reasoning Trace' },
@@ -1766,6 +1768,7 @@ export function Dashboard({session, onReset}){
       {active === 'recommendations' && <RecommendationsPage session={session} onNavigate={setActive} />}
 
       {active === 'recovery-plans' && <RecoveryPlansPage session={session} />}
+      {active === 'export' && <ExportPage session={session} />}
       {active === 'sprint-health' && <SprintHealth session={session} />}
       {active === 'reasoning-trace' && <ReasoningTrace session={session} />}
     </div>
