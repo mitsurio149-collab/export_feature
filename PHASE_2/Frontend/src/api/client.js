@@ -113,8 +113,11 @@ export const api = {
     })
     return unwrapResponse(resp)
   },
-  export: async () => {
-    const resp = await fetch(`${API_ROOT}/export`)
+  export: async (sessionId = '', planId = '') => {
+    const params = new URLSearchParams()
+    if (sessionId) params.set('session_id', sessionId)
+    if (planId) params.set('plan_id', planId)
+    const resp = await fetch(`${API_ROOT}/export?${params.toString()}`)
     if (!resp.ok) {
       const text = await resp.text()
       let json = null; try { json = JSON.parse(text) } catch (e) {}
